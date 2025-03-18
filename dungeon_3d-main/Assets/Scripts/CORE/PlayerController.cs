@@ -31,6 +31,11 @@ public class PlayerController : MonoBehaviour
     private float normalHeight;
     private float crouchHeight = 1.0f; // Hauteur du CharacterController lorsqu'accroupi
 
+    // Variables pour le saut
+    [SerializeField] private float jumpHeight = 1.2f; // Réduit la hauteur du saut
+    [SerializeField] private float gravity = -9.81f;
+    private Vector3 velocity;
+
     private void Start()
     {
         speed = walk;
@@ -89,6 +94,19 @@ public class PlayerController : MonoBehaviour
             {
                 StandUp();
             }
+
+            // Gestion du saut
+            if (cc.isGrounded)
+            {
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+                }
+            }
+
+            // Appliquer la gravité
+            velocity.y += gravity * Time.deltaTime;
+            cc.Move(velocity * Time.deltaTime);
 
             // Gestion des bruits de pas
             if (horizontal != 0 || vertical != 0)
