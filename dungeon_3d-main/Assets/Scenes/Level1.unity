@@ -13257,10 +13257,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walk: 1
   run: 2
+  crouchSpeed: 0
   sfx_steps:
   - {fileID: 8300000, guid: ada590e8cf56b9a45a04bc85f00e682e, type: 3}
   - {fileID: 8300000, guid: d7b8ba041c59e0f4cb75e3b882bd59de, type: 3}
   - {fileID: 8300000, guid: 0eb0781a06a7be04092e8125c7b5d7f8, type: 3}
+  cameraTransform: {fileID: 963194228}
 --- !u!143 &867355057
 CharacterController:
   m_ObjectHideFlags: 0
