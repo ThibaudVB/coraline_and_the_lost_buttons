@@ -7,7 +7,10 @@ public class PlayerController : MonoBehaviour
 
     // Sensibilité de la souris
     private float sensitivity = 500;
-    private float speed;
+    private float speed;  // vitesse privée
+    private float factor_speed = 1;
+
+    // Propriété publique pour accéder/modifier la vitesse
 
     private bool isMoving = false;
     private bool isRunning = false;
@@ -38,7 +41,7 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        speed = walk;
+        speed = walk;  // Initialiser la vitesse via la propriété Speed
         cc = GetComponent<CharacterController>();
         audio_steps = GetComponent<AudioSource>();
         cc.enabled = true;
@@ -71,18 +74,18 @@ public class PlayerController : MonoBehaviour
             float vertical = Input.GetAxis("Vertical");
             Vector3 forward = transform.forward * vertical;
             Vector3 right = transform.right * horizontal;
-            cc.SimpleMove((forward + right) * speed);
+            cc.SimpleMove((forward + right) * speed * factor_speed);  // Utilise la propriété Speed ici
 
             // Gestion de la course
             if (Input.GetKey(KeyCode.LeftShift) && !isCrouching)
             {
-                speed = run;
+                speed = run;  // Change la vitesse à "run" avec la propriété
                 isRunning = true;
             }
             else
             {
                 isRunning = false;
-                speed = walk;
+                speed = walk;  // Change la vitesse à "walk" avec la propriété
             }
 
             // Gestion de l'accroupissement (Ctrl)
@@ -146,7 +149,7 @@ public class PlayerController : MonoBehaviour
         {
             isCrouching = true;
             cc.height = crouchHeight; // Réduit la hauteur du CharacterController
-            speed = crouchSpeed; // Réduit la vitesse
+            speed = crouchSpeed; // Change la vitesse avec la propriété Speed
         }
     }
 
@@ -156,7 +159,11 @@ public class PlayerController : MonoBehaviour
         {
             isCrouching = false;
             cc.height = normalHeight; // Rétablit la hauteur normale
-            speed = walk; // Revient à la vitesse normale
+            speed = walk; // Change la vitesse avec la propriété Speed
         }
+    }
+
+    public void SetFactorSpeed(float val){
+        factor_speed = val;
     }
 }
