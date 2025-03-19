@@ -15,6 +15,10 @@ public class PlayerController : MonoBehaviour
     private bool isMoving = false;
     private bool isRunning = false;
     private bool isCrouching = false;
+    private bool stopMoving = false;
+
+    private Quaternion sauvRotation;
+    private Quaternion sauvCamRota;
 
     private CharacterController cc;
 
@@ -56,7 +60,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (!HudManager.pause)
+        if (!HudManager.pause && !stopMoving)
         {
             // Gestion de la rotation de la caméra
             const float MIN_Y = -60.0f;
@@ -68,6 +72,9 @@ public class PlayerController : MonoBehaviour
 
             transform.rotation = Quaternion.Euler(0, X, 0);
             cameraTransform.localRotation = Quaternion.Euler(Y, 0, 0);
+
+            sauvRotation = Quaternion.Euler(0, X, 0);
+            sauvCamRota = Quaternion.Euler(Y, 0, 0);
 
             // Déplacement du joueur
             float horizontal = Input.GetAxis("Horizontal");
@@ -140,6 +147,11 @@ public class PlayerController : MonoBehaviour
             {
                 step_timer = 0.1f;
             }
+        } else {
+            cc.Move(Vector3.zero);
+
+            transform.rotation = sauvRotation;
+            cameraTransform.localRotation = sauvCamRota;
         }
     }
 
@@ -161,6 +173,11 @@ public class PlayerController : MonoBehaviour
             cc.height = normalHeight; // Rétablit la hauteur normale
             speed = walk; // Change la vitesse avec la propriété Speed
         }
+    }
+
+    public void StopMoving(bool val)
+    {
+        stopMoving = val;
     }
 
     public void SetFactorSpeed(float val){
