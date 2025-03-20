@@ -1,6 +1,0 @@
-Game: Super Mario Odyssey
-Subject: Mario (Skeleton)
-Copyright: Nintendo
-Model Rippers: Random Talking Bush and SciresM
-Hosting Permissions: The Models Resource
-Notes: Check the "Placement Notes" file for positioning info for the hats.

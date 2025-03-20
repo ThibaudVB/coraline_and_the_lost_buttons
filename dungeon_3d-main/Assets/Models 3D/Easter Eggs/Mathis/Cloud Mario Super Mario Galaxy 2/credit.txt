@@ -1,9 +1,0 @@
-	~INFO~
-- Model: Cloud Mario
-- Game: Super Mario Galaxy 2
-- Platform: Wii
-- Ripped by: DJ_Fox11, SpaceCats
-- Uploaded to: The Models Resource
-
-	~CREDIT~
-- Credit to me (DJ_Fox11) and SpaceCats is optional but would be nice. :)
