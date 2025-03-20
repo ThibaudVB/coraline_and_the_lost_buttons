@@ -2264,3 +2264,12 @@ Start importing Assets/Materials/Surfaces/Ground.mat using Guid(f1bc55fa0e0f4c44
  -> (artifact id: 'f4a3d4c595e29d7bcf5c24d424549831') in 0.017018 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 204.244676 seconds.
+  path: Assets/Images_menu
+  artifactKey: Guid(3752a711abcdf4184a97083472578f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images_menu using Guid(3752a711abcdf4184a97083472578f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e85d689f3aaa098c5a913be74d9d047a') in 0.000313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
