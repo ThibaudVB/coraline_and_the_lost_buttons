@@ -2904,6 +2904,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0a1981485cf9bf045a1e05cd342809e4, type: 3}
   m_PrefabInstance: {fileID: 1935357369}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2110264302
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 142b8fbc3c3e34475919dbdee550c674, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.6066003
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 142b8fbc3c3e34475919dbdee550c674, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.13
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 142b8fbc3c3e34475919dbdee550c674, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.9584286
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 142b8fbc3c3e34475919dbdee550c674, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.944341
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 142b8fbc3c3e34475919dbdee550c674, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.30047768
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 142b8fbc3c3e34475919dbdee550c674, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.018569289
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 142b8fbc3c3e34475919dbdee550c674, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.13262127
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 142b8fbc3c3e34475919dbdee550c674, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 34.92
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 142b8fbc3c3e34475919dbdee550c674, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -3.12
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 142b8fbc3c3e34475919dbdee550c674, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -16.97
+      objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: 142b8fbc3c3e34475919dbdee550c674, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b3fcef880c07346acb23f1528624066d, type: 2}
+    - target: {fileID: 919132149155446097, guid: 142b8fbc3c3e34475919dbdee550c674, type: 3}
+      propertyPath: m_Name
+      value: LuxoBall
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 142b8fbc3c3e34475919dbdee550c674, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2920,3 +2981,4 @@ SceneRoots:
   - {fileID: 1339686094}
   - {fileID: 1607437966}
   - {fileID: 707630933}
+  - {fileID: 2110264302}
