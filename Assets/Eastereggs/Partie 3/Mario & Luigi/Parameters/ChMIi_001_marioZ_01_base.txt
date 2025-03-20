@@ -1,0 +1,373 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "ChMIi_001_marioZ_01_base",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'ChMI_Basic_v6'",
+        "ObjectPath": "/Game/Resources/Material/Character/MI/ChMI_Basic_v6.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Gloss_Boost",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 10.0,
+          "ExpressionGUID": "9AEDCD04-430231CA-DCEAA1BC-DCD30FED"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Gloss_Falloff_in",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.9,
+          "ExpressionGUID": "CBE85F59-4785C0D3-0E3D9681-A1862E02"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Gloss_Falloff_out",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "EA7678FD-4D2CB536-0DDEB99B-170A9044"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "outlineColorBrend",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.7,
+          "ExpressionGUID": "54B101FE-49A2FF63-2C5A5995-ED467F31"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RimL_OutlineJitter",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.1,
+          "ExpressionGUID": "84656FAA-4D8A3C48-E1D4D2AA-15E9C03A"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "ShadowDarkness",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "7C17C50A-4EA1D011-D997769D-A6A61C88"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RL_BlurRange",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.1,
+          "ExpressionGUID": "E2469A64-4AB89887-77160494-FBD5528F"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RL_Threshold",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.4,
+          "ExpressionGUID": "B89E004A-457BF80C-7DCDA8A2-3F1B9FF5"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "ZetsuenMode",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "D644BAE6-4AD96A00-4969A3AB-A88B9379"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "ZM_BaseBlendAmount",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "C41FC962-44054258-D50320B4-A3A743A6"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "ZM_BaseColorMultiplyAmount",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.8,
+          "ExpressionGUID": "86B587AB-488ACCAB-EC0441A4-9F3BB60F"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "ZM_RedEyeBoostAmount",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 80.0,
+          "ExpressionGUID": "F811D2F5-4AAB2A85-54BE78B0-F8C9A79D"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "ZM_DetectIntensity_EyeRed_Low",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.9,
+          "ExpressionGUID": "A6B012A1-49845105-7385878C-9018B124"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "ZM_DetectIntensity_EyeRed_ChangingRange",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.1,
+          "ExpressionGUID": "FE685E42-486F9323-C12C5895-3192A49B"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "GlossColor",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 1.0,
+            "G": 0.9,
+            "B": 1.0,
+            "A": 0.0,
+            "Hex": "FFF4FF"
+          },
+          "ExpressionGUID": "546FC406-403B713C-8C3AFD86-9011BB15"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "shadowVector",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": -0.390476,
+            "G": 0.744419,
+            "B": 0.558842,
+            "A": 0.0,
+            "Hex": "00E0C5"
+          },
+          "ExpressionGUID": "270B7C5C-40B4D27F-697A9DA4-41016EB4"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "ZM_BlendColor",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.14,
+            "G": 0.0,
+            "B": 0.07,
+            "A": 1.0,
+            "Hex": "68004B"
+          },
+          "ExpressionGUID": "98DEFB2E-48F77F73-6C3B5585-56D79A90"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "ZM_MultiplyColor",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.52,
+            "G": 0.03,
+            "B": 0.39,
+            "A": 1.0,
+            "Hex": "BF30A8"
+          },
+          "ExpressionGUID": "69A3EAAB-4F6574D0-37299BB7-953255D0"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RedEye_Color",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF0000"
+          },
+          "ExpressionGUID": "64D13D5D-40A6637C-611F5B97-64F7A0D4"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "MainTex",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'ChTX_001_mario_01_cl'",
+            "ObjectPath": "/Game/Resources/Character/001_mario/Textures/ChTX_001_mario_01_cl.0"
+          },
+          "ExpressionGUID": "5B0D12AB-41656F73-145B118E-A2C29599"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "ShadowTex",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'ChTX_001_mario_01_sh'",
+            "ObjectPath": "/Game/Resources/Character/001_mario/Textures/ChTX_001_mario_01_sh.0"
+          },
+          "ExpressionGUID": "3454C8FE-495E291C-9ADC1BAC-ED49578C"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "ShadowControlTex",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'ChTX_001_mario_01_sc'",
+            "ObjectPath": "/Game/Resources/Character/001_mario/Textures/ChTX_001_mario_01_sc.0"
+          },
+          "ExpressionGUID": "0F4D17BA-430E8722-11120D9B-D1D9D90F"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "EyeTex",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'ChTX_001_mario_eye_01_cl'",
+            "ObjectPath": "/Game/Resources/Character/001_mario/Textures/ChTX_001_mario_eye_01_cl.0"
+          },
+          "ExpressionGUID": "7EAB2816-4008188F-800FEC98-60329DC5"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "EyeShadowTex",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'ChTX_001_mario_eye_01_sh'",
+            "ObjectPath": "/Game/Resources/Character/001_mario/Textures/ChTX_001_mario_eye_01_sh.0"
+          },
+          "ExpressionGUID": "1111B4E3-49D0B611-7761ACAD-9A7DE83C"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "EyeShadowControlTex",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'ChTX_001_mario_eye_01_sc'",
+            "ObjectPath": "/Game/Resources/Character/001_mario/Textures/ChTX_001_mario_eye_01_sc.0"
+          },
+          "ExpressionGUID": "D8AC3D18-4D499FA1-B7D81C90-7A83D1C3"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": false,
+            "ParameterInfo": {
+              "Name": "_Debug",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "43F5C331-455183ED-8B9F8186-EC60B4BD"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "useFrontRender",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "34142273-4EDFAF16-EC9F6483-598418CA"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "useGloss",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "4BD819A3-4CE749A5-71D50CB9-9591E47E"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "useZetsuenMode",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "95E60566-49CB964E-DB550B96-8C549AC5"
+          }
+        ]
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'CmTX_seaSmall'",
+          "ObjectPath": "/Game/Resources/Material/_CommonTextures/sea/CmTX_seaSmall.0"
+        },
+        null,
+        {
+          "ObjectName": "Texture2D'CmTX_allwhite'",
+          "ObjectPath": "/Game/Resources/Material/_CommonTextures/CmTX_allwhite.0"
+        },
+        {
+          "ObjectName": "Texture2D'ChTX_npc_eye_sc'",
+          "ObjectPath": "/Game/Resources/Material/_CommonTextures/Character/ChTX_npc_eye_sc.0"
+        },
+        {
+          "ObjectName": "Texture2D'CmTX_allblack'",
+          "ObjectPath": "/Game/Resources/Material/_CommonTextures/CmTX_allblack.0"
+        },
+        {
+          "ObjectName": "Texture2D'CmTX_distortion01_01'",
+          "ObjectPath": "/Game/Resources/Material/_CommonTextures/CmTX_distortion01_01.0"
+        }
+      ]
+    }
+  }
+]
