@@ -181,3 +181,93 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7180.662648 seconds.
+  path: Assets/'Mini Me' Coraline Doll
+  artifactKey: Guid(144d4ac68c5a34c0685cca7c1ebd770c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/'Mini Me' Coraline Doll using Guid(144d4ac68c5a34c0685cca7c1ebd770c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '343a2278ed364f33ef05fd9af5d94916') in 0.001599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 25.239212 seconds.
+  path: Assets/Materials/Effects
+  artifactKey: Guid(4f5a8c74850296544a2485a27c7be62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Effects using Guid(4f5a8c74850296544a2485a27c7be62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e1828998c14de068f783797eb70f0099') in 0.000432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.063977 seconds.
+  path: Assets/Materials/Effects/LifeBall.mat
+  artifactKey: Guid(d03895f7fe0f4844793414bf1ceced46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Effects/LifeBall.mat using Guid(d03895f7fe0f4844793414bf1ceced46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '86f7d74b49fb7a4da029211249e5c950') in 0.260101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.807942 seconds.
+  path: Assets/Materials/Enemies
+  artifactKey: Guid(925d5f4641c7767488fe871af7c53c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Enemies using Guid(925d5f4641c7767488fe871af7c53c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c53db0459191e76af510cbcfe28c8421') in 0.000368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.656410 seconds.
+  path: Assets/Materials/Sprites
+  artifactKey: Guid(6196776a8d9438e478f886167edd5756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites using Guid(6196776a8d9438e478f886167edd5756) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5ff606dc60a3fda3de5f89222b3bbcd3') in 0.000428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.741463 seconds.
+  path: Assets/Materials/Surfaces/FloorWood_height.png
+  artifactKey: Guid(ca7a23a5c5a21f24d879f99c659bd0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Surfaces/FloorWood_height.png using Guid(ca7a23a5c5a21f24d879f99c659bd0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3908cbf8a0a411924040d99b44e13527') in 0.018657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Materials/Surfaces/New Material 1.mat
+  artifactKey: Guid(50c9e41cb254e4293b3222101708d442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Surfaces/New Material 1.mat using Guid(50c9e41cb254e4293b3222101708d442) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd95929a54d59b8ad93341f6673c6597c') in 0.004839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Materials/Surfaces/Wall.mat
+  artifactKey: Guid(f575ce9a3f6946b4fb2b89246e87b18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Surfaces/Wall.mat using Guid(f575ce9a3f6946b4fb2b89246e87b18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dbf3cca66ad71436b4d212a8bffea867') in 0.005933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Materials/Surfaces/Wall_Wood_difuse.png
+  artifactKey: Guid(d5f3b35c4afc44a5ba3c6eef3de193b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Surfaces/Wall_Wood_difuse.png using Guid(d5f3b35c4afc44a5ba3c6eef3de193b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9c1c2a5356252fe80f10b79726cdda14') in 0.003547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
