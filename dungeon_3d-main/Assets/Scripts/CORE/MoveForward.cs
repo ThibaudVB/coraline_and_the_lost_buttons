@@ -21,7 +21,7 @@ public class MoveForward : MonoBehaviour
   private bool isScaring = false;
 
     
-    private float stop_distance = 30f;
+    private float stop_distance = 6f;
     
     // Start is called before the first frame update
     void Start()

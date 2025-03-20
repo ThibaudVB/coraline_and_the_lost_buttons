@@ -1,11 +1,11 @@
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;  // Ajout du namespace pour TextMeshPro
 
 public class UIManager : MonoBehaviour
 {
-    public Text artefactCountText;   // Référence au Text dans l'UI pour afficher le nombre d'artefacts
-    public GameObject door;          // La porte à déverrouiller une fois les 5 artefacts collectés
-    public Text messageText;         // Référence au Text pour afficher le message ("Porte déverrouillée")
+    public TMP_Text artefactCountText;   // Référence au TMP_Text pour afficher le nombre d'artefacts
+    public DoorsLocked doorLocked;  // Référence à DoorsLocked
+    public TMP_Text messageText;         // Référence au TMP_Text pour afficher le message
 
     void OnEnable()
     {
@@ -22,26 +22,22 @@ public class UIManager : MonoBehaviour
     // Met à jour l'affichage du nombre d'artefacts collectés
     void UpdateArtefactCount(int count)
     {
-        artefactCountText.text = "Artefacts: " + count + "/5";  // Affiche le nombre d'artefacts collectés
+        artefactCountText.text = "Yeux : " + count + "/5";  // Affiche le nombre d'artefacts collectés
 
-        // Si le joueur a collecté tous les artefacts (5), on appelle la méthode de déverrouillage
+        // Si le joueur a collecté tous les artefacts (5), on déverrouille la porte
         if (count >= 5)
         {
-            UnlockDoor();
-            ShowMessage("Porte déverrouillée !");
-        }
+            doorLocked.UnlockDoor();  // Déverrouille la porte
+            ShowMessage("Porte déverrouillée !"); // Affiche le message
+        
     }
-
-    // Déverrouille la porte (la rend visible)
-    void UnlockDoor()
-    {
-        door.SetActive(true);  // La porte devient visible
-    }
+ }
 
     // Afficher un message
     void ShowMessage(string message)
     {
         messageText.text = message;
+
         Invoke("ClearMessage", 2f); // Efface le message après 2 secondes
     }
 
