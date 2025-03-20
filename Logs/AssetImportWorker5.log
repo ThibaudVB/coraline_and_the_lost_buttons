@@ -1,0 +1,1369 @@
+Unity Editor version:    2022.3.32f1 (c8300dc0a3fa)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.3.1 (Build 24D70)
+Darwin version:          24.3.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        36864 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+/Users/mathis/Developer/coraline_and_the_lost_buttons
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+49820
+Successfully changed project path to: /Users/mathis/Developer/coraline_and_the_lost_buttons
+/Users/mathis/Developer/coraline_and_the_lost_buttons
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8451541056] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 94467852 [EditorId] 94467852 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Mathis.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8451541056] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 94467852 [EditorId] 94467852 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Mathis.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 2.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.32f1 (c8300dc0a3fa)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mathis/Developer/coraline_and_the_lost_buttons/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M3 Pro (high power)
+Metal devices available: 1
+0: Apple M3 Pro (high power)
+Using device Apple M3 Pro (high power)
+Initializing Metal device caps: Apple M3 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56417
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000594 seconds.
+- Loaded All Assemblies, in  0.172 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.138 seconds
+Domain Reload Profiling: 310ms
+	BeginReloadAssembly (38ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (83ms)
+		LoadAssemblies (37ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (82ms)
+			TypeCache.Refresh (81ms)
+				TypeCache.ScanAssembly (74ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (138ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (104ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (73ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.293 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.323 seconds
+Domain Reload Profiling: 616ms
+	BeginReloadAssembly (63ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (181ms)
+		LoadAssemblies (103ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (84ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (323ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (235ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (190ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3173 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (52.4 KB). Loaded Objects now: 3643.
+Memory consumption went from 135.3 MB to 135.2 MB.
+Total: 2.435500 ms (FindLiveObjects: 0.134209 ms CreateObjectMapping: 0.032292 ms MarkObjects: 2.182625 ms  DeleteObjects: 0.085625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8876.692481 seconds.
+  path: Assets/Eastereggs/Partie 3/mario/Sans nom.blend
+  artifactKey: Guid(7a8e46362b79f4d1a8bf8053fbe94f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/mario/Sans nom.blend using Guid(7a8e46362b79f4d1a8bf8053fbe94f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f83cb0b85b1cc390b854a3ee3f515086') in 0.144799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Trucs imports/old Kitchen/Chair/Materials/DefaultMat.mat
+  artifactKey: Guid(1f39ddd6ee2ba4934b1631e2e7428fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/old Kitchen/Chair/Materials/DefaultMat.mat using Guid(1f39ddd6ee2ba4934b1631e2e7428fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a9e6abe86a547ff20518b70b509a2571') in 0.003358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Dinner table/Materials/Flame.mat
+  artifactKey: Guid(4577f3bd4f506de44a05387f63231c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinner table/Materials/Flame.mat using Guid(4577f3bd4f506de44a05387f63231c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dfa7fd451a76fcb33c0828da54fadbb0') in 0.072459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4d973605ac9d38d2cf76d58b4027c1fc') in 0.015911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Trucs imports/Creation_Forge Projects/Old Furniture/old rustic glass table/Textures/Materials/Main Glass TableM.mat
+  artifactKey: Guid(e6cfac43dcd3e424286c805d22015cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Creation_Forge Projects/Old Furniture/old rustic glass table/Textures/Materials/Main Glass TableM.mat using Guid(e6cfac43dcd3e424286c805d22015cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '95afe08e3bd921fa3c055cc1ec719d45') in 0.040104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/Map1stFloor.mat
+  artifactKey: Guid(86022593ea37ac74b813b06b152f11f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/Map1stFloor.mat using Guid(86022593ea37ac74b813b06b152f11f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'be1427d2e4b7d5d0677284e0ea198295') in 0.201610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Eastereggs/Partie 1/Chicken Wii/mr721_04.dae
+  artifactKey: Guid(d3d0e85f26edd494faca1e774c09504d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 1/Chicken Wii/mr721_04.dae using Guid(d3d0e85f26edd494faca1e774c09504d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a59612372a48a717f7f7969654c0da94') in 0.024087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Eastereggs/Partie 1/AsterT_KyojuroRengoku/Chr_032_01/Chr_032_01_withMorphs.dae
+  artifactKey: Guid(99371c0ca93c54597a41e9a7dbcad0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 1/AsterT_KyojuroRengoku/Chr_032_01/Chr_032_01_withMorphs.dae using Guid(99371c0ca93c54597a41e9a7dbcad0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '271de851b8d5100d89ac078cc82b07b6') in 0.057851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 278
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/Table_Bed.mat
+  artifactKey: Guid(3a21011b731ca834eb4e83588791e1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/Table_Bed.mat using Guid(3a21011b731ca834eb4e83588791e1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '69fb37efcbaba94596434b5ffa154d9f') in 0.028780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8ace9910af087477ea91241a6524030b') in 0.023853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Eastereggs/Partie 1/Pizza/Re_102.obj
+  artifactKey: Guid(efb3f9cb48a494a33a786cceb6601436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 1/Pizza/Re_102.obj using Guid(efb3f9cb48a494a33a786cceb6601436) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a16ea3f4c75f12fb693ed230f84dfc1a') in 0.020053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Eastereggs/Partie 1/Seagull/NpcGull.fbx
+  artifactKey: Guid(431ff24344e1a444f96de7e5b289b48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 1/Seagull/NpcGull.fbx using Guid(431ff24344e1a444f96de7e5b289b48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c2a51f1128aa1e74270cd61629431e31') in 0.021261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Models/BigKettle.fbx
+  artifactKey: Guid(739cf766bb103364891edc56d91716ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Models/BigKettle.fbx using Guid(739cf766bb103364891edc56d91716ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd7867edc37dc0abe7a8a8dd06f763670') in 0.046546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/Fridge_Case.mat
+  artifactKey: Guid(344fff8aeecde39448a855d882d5f483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/Fridge_Case.mat using Guid(344fff8aeecde39448a855d882d5f483) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '08898668afd3b6c7f693c503cfbfda6d') in 0.035004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Trucs imports/Creation_Forge Projects/Old Furniture/old rustic wardrobe/Wardrobe textures/Material/LeftHingeM.mat
+  artifactKey: Guid(c45881deeb47bf543b6cccce6d829b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Creation_Forge Projects/Old Furniture/old rustic wardrobe/Wardrobe textures/Material/LeftHingeM.mat using Guid(c45881deeb47bf543b6cccce6d829b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '06ca9cedf31a933b804cd3320dba27c6') in 0.006285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Character/Fausse Mère/file_1656558169.obj
+  artifactKey: Guid(6e6913955b4c4414684019a9738aaf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Fausse Mère/file_1656558169.obj using Guid(6e6913955b4c4414684019a9738aaf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '63998df6e21d5847fd4ffbc14baa22be') in 0.019467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Trucs imports/DarkFantasyKit [Free]/Meshes/Windows/Materials/dfk_window.mat
+  artifactKey: Guid(131d833b7238e844cbcf97c4cc3df251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/DarkFantasyKit [Free]/Meshes/Windows/Materials/dfk_window.mat using Guid(131d833b7238e844cbcf97c4cc3df251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '90277fd4d49cc02665232956716bf76e') in 0.010994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Trucs imports/DarkFantasyKit [Free]/Meshes/Furniture/Materials/Wardrobe.mat
+  artifactKey: Guid(8238a26ff1a9ee54bad15fea05f64683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/DarkFantasyKit [Free]/Meshes/Furniture/Materials/Wardrobe.mat using Guid(8238a26ff1a9ee54bad15fea05f64683) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6911a8c2d8d73d7183e0dc6627050d83') in 0.003240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/Wood_facing.mat
+  artifactKey: Guid(85fc3a16d9fd7284ca579dd41153f2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/Wood_facing.mat using Guid(85fc3a16d9fd7284ca579dd41153f2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5b5e10abf57c9ed57b8e68252adae95e') in 0.076940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Trucs imports/DarkFantasyKit [Free]/Meshes/Furniture/Materials/dfk_chair_01.mat
+  artifactKey: Guid(98cd6d77cddf00d4496581947c7cc1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/DarkFantasyKit [Free]/Meshes/Furniture/Materials/dfk_chair_01.mat using Guid(98cd6d77cddf00d4496581947c7cc1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1689c441e0fb196c4054cfa82a8f63de') in 0.011801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Eastereggs/P4/Wonder Flower/ItemWonderFlower.fbx
+  artifactKey: Guid(29e1ed4ef43594ae58e25cf6a6dfb17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/P4/Wonder Flower/ItemWonderFlower.fbx using Guid(29e1ed4ef43594ae58e25cf6a6dfb17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4b8f30189c40d33bc8af70881a5f81ca') in 0.299678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Materials/Sprites/Surfaces/Graff/Materials/Graff1.mat
+  artifactKey: Guid(e296f25e42c68514e8b62b8bd5724f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites/Surfaces/Graff/Materials/Graff1.mat using Guid(e296f25e42c68514e8b62b8bd5724f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '527fba38006a22e0cb583ddd676adacb') in 0.005739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Trucs imports/Picture_Frames_FREE/Materials/M_skybox.mat
+  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Picture_Frames_FREE/Materials/M_skybox.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fd92f54440ad079089dc49f5f10b59a0') in 0.067693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/Sink.mat
+  artifactKey: Guid(fd92ddb1f0c8f3e498993cb5d2527a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/Sink.mat using Guid(fd92ddb1f0c8f3e498993cb5d2527a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '34269143071956a86b5845e32e5190cd') in 0.032317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/Materials/ChTX_001_mario_01_sp.mat
+  artifactKey: Guid(cc8773decd7774ca9bdfc64e3af205e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/Materials/ChTX_001_mario_01_sp.mat using Guid(cc8773decd7774ca9bdfc64e3af205e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '897946becda3e48a4ad59213cb74db3a') in 0.004739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/BigShelf_Stock.mat
+  artifactKey: Guid(fc5483a003b2f6b43b9224c566d66565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/BigShelf_Stock.mat using Guid(fc5483a003b2f6b43b9224c566d66565) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '398cf42da7496813d2bf25c85fd2deb1') in 0.033827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/MorgueBox.mat
+  artifactKey: Guid(76295390af5a8904c9f067554cc6aada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/MorgueBox.mat using Guid(76295390af5a8904c9f067554cc6aada) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a53099bbe57cd8e121a279367c4f01b6') in 0.036881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Eastereggs/P4/Wonder Flower/ItemWonderFlower.dae
+  artifactKey: Guid(5c32ec779bc204b6c92cf515110de7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/P4/Wonder Flower/ItemWonderFlower.dae using Guid(5c32ec779bc204b6c92cf515110de7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bf2f4bdc3c9afdb430a64f02e2cac56f') in 0.050125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Eastereggs/Partie 3/Luma/prp_cin_luma_hologram_01_body_LOD_HIGH.obj
+  artifactKey: Guid(77162a6fec9a74ac38062b89818c202b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Luma/prp_cin_luma_hologram_01_body_LOD_HIGH.obj using Guid(77162a6fec9a74ac38062b89818c202b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9b54e930cf9442955a15b0288d9ddf24') in 0.012964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Eastereggs/Partie 3/Warp Pipe/Warp Pipe/Dokan1.dae
+  artifactKey: Guid(5123cf5552e2a433a958735dd3b9fa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Warp Pipe/Warp Pipe/Dokan1.dae using Guid(5123cf5552e2a433a958735dd3b9fa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '55ee7c5cd78d00ec53ce7f17b18df312') in 0.013260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/Window_DayRoom.mat
+  artifactKey: Guid(f93a153f68e116642ae15b033f0704f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/Window_DayRoom.mat using Guid(f93a153f68e116642ae15b033f0704f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8f09a71239aa5ff2737b31e9892c11ca') in 0.014981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/MedRack_V2.mat
+  artifactKey: Guid(98c1916893f688240885d3478893a8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/MedRack_V2.mat using Guid(98c1916893f688240885d3478893a8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3384d450662228e1fb767df546145783') in 0.032162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/TableOffice.mat
+  artifactKey: Guid(94395755f4290a9458b7c9058bdbbe26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/TableOffice.mat using Guid(94395755f4290a9458b7c9058bdbbe26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f18540f95416f6f4457fa973f244f3db') in 0.027769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/MedRackDoor_V2.mat
+  artifactKey: Guid(a5cd5271702f7024fb6b0a4def110b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/MedRackDoor_V2.mat using Guid(a5cd5271702f7024fb6b0a4def110b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c4ca6554be2b8f16170ddccf9178b7ee') in 0.012438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Trucs imports/Picture_Frames_FREE/Materials/T_picture_frames_Normal.mat
+  artifactKey: Guid(716e90756eea64572bb42c6ca800a8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Picture_Frames_FREE/Materials/T_picture_frames_Normal.mat using Guid(716e90756eea64572bb42c6ca800a8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0e296c183555b3a17a1e39d950ff3ae5') in 0.005859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Trucs imports/Furniture Models/Coffee Table 2/Materials/No Name.mat
+  artifactKey: Guid(26ebc5f62c69afc4ea564412d35a73de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Furniture Models/Coffee Table 2/Materials/No Name.mat using Guid(26ebc5f62c69afc4ea564412d35a73de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a0273bd6cf5c30a90524d55579e9ea9a') in 0.004049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/DoorD_V2_Door.mat
+  artifactKey: Guid(75d23b5e0dc4f9e44a4aeb85c44b176f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/DoorD_V2_Door.mat using Guid(75d23b5e0dc4f9e44a4aeb85c44b176f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd5ec58c2f062d222ae324d91a7d28b8d') in 0.034697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/Door_V3.mat
+  artifactKey: Guid(b2ca5e5d5e465af49b9df125d3eed284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/Door_V3.mat using Guid(b2ca5e5d5e465af49b9df125d3eed284) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3fc52c29e972df8aad5154a74633d87a') in 0.036067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Eastereggs/Partie 1/Pizza/Materials/dish_00.mat
+  artifactKey: Guid(73368c148322642a1b1f332797b69765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 1/Pizza/Materials/dish_00.mat using Guid(73368c148322642a1b1f332797b69765) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9c7203927d1a806ccb5e924dba786f69') in 0.003597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/CupboardLight_Broken.mat
+  artifactKey: Guid(cafc0c14f3f9f26418f88ad12cee697a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/CupboardLight_Broken.mat using Guid(cafc0c14f3f9f26418f88ad12cee697a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a0019c3eaec969166dd33a91e8eaf256') in 0.030109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Trucs imports/Furniture Models/Sofa/Materials/No Name.mat
+  artifactKey: Guid(7fd76a91aa7029f40911937ff2a79f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Furniture Models/Sofa/Materials/No Name.mat using Guid(7fd76a91aa7029f40911937ff2a79f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9c830410d5c3a66b1296798985520b19') in 0.003670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Eastereggs/Partie 1/Kirby 64/Kirby/kirby.obj
+  artifactKey: Guid(d97daf790f5534b748cfa6171011533e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 1/Kirby 64/Kirby/kirby.obj using Guid(d97daf790f5534b748cfa6171011533e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5fcdcb4b6848031ef5da7ff77a2a35ee') in 0.022395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/Materials/ChTX_001_mario_02_cl.mat
+  artifactKey: Guid(d0589a3ca427f4816b9debdcc9ea7af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/Materials/ChTX_001_mario_02_cl.mat using Guid(d0589a3ca427f4816b9debdcc9ea7af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3af8b0b2a30f01a74916df64d3cebd9b') in 0.004653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/Wall_Wood_difuse.mat
+  artifactKey: Guid(8c979feb9295b4b008c837d414632609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/Wall_Wood_difuse.mat using Guid(8c979feb9295b4b008c837d414632609) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4733e1595a0615df1f22906f4c448139') in 0.003117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/CurtainsMedic.mat
+  artifactKey: Guid(a261e948c97eb5642bf469c6596ff925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/CurtainsMedic.mat using Guid(a261e948c97eb5642bf469c6596ff925) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6a6be0fe156ba354258bcd97f363647d') in 0.035076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Eastereggs/Partie 1/c23_Amelie/Materials/c23_face03.mat
+  artifactKey: Guid(a2367aac8d17d44eab4e80e6839786b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 1/c23_Amelie/Materials/c23_face03.mat using Guid(a2367aac8d17d44eab4e80e6839786b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f92f219261321f353b7a444599fd8efc') in 0.004258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Eastereggs/Partie 1/Shoto Torodoki/ch03_j00_dammy.obj
+  artifactKey: Guid(0940cb34ffd6c49a6992a2aa4a4f531d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 1/Shoto Torodoki/ch03_j00_dammy.obj using Guid(0940cb34ffd6c49a6992a2aa4a4f531d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5356ea0b4a1ba3a182a861b23a1102de') in 0.128941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 121
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Trucs imports/Furniture Models/Table/Materials/No Name.mat
+  artifactKey: Guid(6503c155aab3b9e4eb1bdd6fb7b24217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Furniture Models/Table/Materials/No Name.mat using Guid(6503c155aab3b9e4eb1bdd6fb7b24217) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5aa6a2347a76546e4b3131c6465e9e76') in 0.003533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Eastereggs/P4/Wonder Flower/Materials/WonderFlowerMat_Nrm.mat
+  artifactKey: Guid(5b79f4619cb514289b149574c2022386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/P4/Wonder Flower/Materials/WonderFlowerMat_Nrm.mat using Guid(5b79f4619cb514289b149574c2022386) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5f97588c763f7610d6c97f7264d3ddd6') in 0.004340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Trucs imports/Furniture Models/Coffee Table/Materials/No Name.mat
+  artifactKey: Guid(eec017b0635ddba41a30a106784db94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Furniture Models/Coffee Table/Materials/No Name.mat using Guid(eec017b0635ddba41a30a106784db94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f1f7ca2e9651b8c13efaaf18a79c9815') in 0.003265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Eastereggs/P4/Pipe-Rock Grassland/WObjHajimariSougenMiniTijyoA.fbx
+  artifactKey: Guid(8ef5d51d55d854ab99474f1404b8b437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/P4/Pipe-Rock Grassland/WObjHajimariSougenMiniTijyoA.fbx using Guid(8ef5d51d55d854ab99474f1404b8b437) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8d510ef18619d757319c8e703c004f14') in 0.034196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Eastereggs/Partie 1/AsterT_KyojuroRengoku/Chr_032_01/Chr_032_01.fbx
+  artifactKey: Guid(d8e2b222c3d6d4d2ab3a83d413a6765a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 1/AsterT_KyojuroRengoku/Chr_032_01/Chr_032_01.fbx using Guid(d8e2b222c3d6d4d2ab3a83d413a6765a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '95fcdc6eec8056eea7463ba53504aa01') in 0.062839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 280
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Dinner table/Materials/Cup.mat
+  artifactKey: Guid(d723ae20dc04c5549acd40afb83b3b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinner table/Materials/Cup.mat using Guid(d723ae20dc04c5549acd40afb83b3b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '83d4dbea1824c24a0f54df4952a9bb03') in 0.066351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/Sofa_Pilow.mat
+  artifactKey: Guid(a98dc8496b327c54680cc411627f8e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/Sofa_Pilow.mat using Guid(a98dc8496b327c54680cc411627f8e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0e752d2c5cc77abc4af2bcc9aac02afd') in 0.038941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Trucs imports/AK Studio Art/Cheval Mirror/Models/Materials/Cheval Mirror 3.mat
+  artifactKey: Guid(9db80f8aaa64fdd43817440e5777d41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/AK Studio Art/Cheval Mirror/Models/Materials/Cheval Mirror 3.mat using Guid(9db80f8aaa64fdd43817440e5777d41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7e14f1aac649d11e5b4912999925e73a') in 0.010805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/MorgueTable.mat
+  artifactKey: Guid(6fb1520f39b43e04a8aafdedfa0104cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/MorgueTable.mat using Guid(6fb1520f39b43e04a8aafdedfa0104cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fea1a870e1e14add31389a1c650a6e60') in 0.036047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Trucs imports/old Kitchen/Floor/Materials/DefaultMat.mat
+  artifactKey: Guid(075ee93c0b3e4f748bc91d19d25018c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/old Kitchen/Floor/Materials/DefaultMat.mat using Guid(075ee93c0b3e4f748bc91d19d25018c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8403da2ace78e7e92b5ac46262351cac') in 0.004163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Trucs imports/Furniture Models/Bed/Materials/No Name.mat
+  artifactKey: Guid(148109a809fe67047b6ef1e37fcbdd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Furniture Models/Bed/Materials/No Name.mat using Guid(148109a809fe67047b6ef1e37fcbdd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e80830fc0b4144778217a3a2907eacb1') in 0.003382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Eastereggs/P4/Wonder Flower/Materials/WonderFlowerPetalMat_Nrm.mat
+  artifactKey: Guid(4e6d32f598c224fa1867d8da62e5d875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/P4/Wonder Flower/Materials/WonderFlowerPetalMat_Nrm.mat using Guid(4e6d32f598c224fa1867d8da62e5d875) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3023df3eb59a9b53af913f984c9ee77d') in 0.003999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/Cupboard_Door.mat
+  artifactKey: Guid(a5a0ed70d9df3dd4b9c04e54d371f131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/Cupboard_Door.mat using Guid(a5a0ed70d9df3dd4b9c04e54d371f131) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '533eecca6462be566864eaefc61886f4') in 0.025583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/Tiled/Walls/Wall_4.mat
+  artifactKey: Guid(e992b9422b8cf1e4dbbfb44239f92c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/Tiled/Walls/Wall_4.mat using Guid(e992b9422b8cf1e4dbbfb44239f92c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0ab6211f5f69adce52e146200bc79542') in 0.009246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/FloorWood.mat
+  artifactKey: Guid(7f710f561179b4adfb08631b9173b2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/FloorWood.mat using Guid(7f710f561179b4adfb08631b9173b2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e31e58a86ec5e9db4323cc2a993522e2') in 0.006215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Eastereggs/Partie 3/Diddy Kong original Trophy/Diddy.obj
+  artifactKey: Guid(397f4acb004904ed596d830533b3d4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Diddy Kong original Trophy/Diddy.obj using Guid(397f4acb004904ed596d830533b3d4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a0953620bd9901edf65080afb1e0cdb8') in 0.169058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 231
+========================================================================
+Received Import Request.
+  Time since last request: 0.121105 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/Tiled/Tiles/Tiles_7.mat
+  artifactKey: Guid(47f11ffa9c8de5645a4d0ad3131064f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/Tiled/Tiles/Tiles_7.mat using Guid(47f11ffa9c8de5645a4d0ad3131064f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eb3a3d82d92856acdee440a33e337433') in 0.017108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/Tiled/Tiles/Tiles_9.mat
+  artifactKey: Guid(303f65e8337a02d40a82c6ddfb32caa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/Tiled/Tiles/Tiles_9.mat using Guid(303f65e8337a02d40a82c6ddfb32caa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3cd3ea499d9210993201003218d5e1a5') in 0.012377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/TableSmall.mat
+  artifactKey: Guid(63a4fafd464f2d04ebaac7d86257c09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/TableSmall.mat using Guid(63a4fafd464f2d04ebaac7d86257c09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5d8379a35a0910ac0726b0a7b16b64a5') in 0.024258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/Tiled/Tiles/Tiles_3.mat
+  artifactKey: Guid(71d53c85cd69f0f4582c68719ec6ccca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/Tiled/Tiles/Tiles_3.mat using Guid(71d53c85cd69f0f4582c68719ec6ccca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b697020b95923c4e099ed0b661aeca1d') in 0.011394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Eastereggs/Partie 1/Pizza/Materials/tex_Re_102_00.mat
+  artifactKey: Guid(77044d0863b1946eb97c29a01fc3ca29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 1/Pizza/Materials/tex_Re_102_00.mat using Guid(77044d0863b1946eb97c29a01fc3ca29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f437ecce05c00eaa3ce6750ac945844b') in 0.004416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/TableSchool.mat
+  artifactKey: Guid(f834e616354a5c848b3fd6564d3e389a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/TableSchool.mat using Guid(f834e616354a5c848b3fd6564d3e389a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ac4079cb75c1aa7fdd0ee07d196df2f0') in 0.028329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Trucs imports/Models 3D/Luxo Ball/LuxoBall.obj
+  artifactKey: Guid(0a1981485cf9bf045a1e05cd342809e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Models 3D/Luxo Ball/LuxoBall.obj using Guid(0a1981485cf9bf045a1e05cd342809e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fca2a84558ac62fd974eaf7ac7c429d3') in 0.011769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Eastereggs/Partie 1/Brawl - Piranha Plant Trophy/Materials/packun_pipe_3.mat
+  artifactKey: Guid(997e849088d3344a6bc48264e7209e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 1/Brawl - Piranha Plant Trophy/Materials/packun_pipe_3.mat using Guid(997e849088d3344a6bc48264e7209e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '468675fee5d6f6292047a412d772b471') in 0.003695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Eastereggs/Partie 1/Brawl - Piranha Plant Trophy/Materials/packun_skinshadow_1.mat
+  artifactKey: Guid(261b22795692143f38d1d88e9f878a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 1/Brawl - Piranha Plant Trophy/Materials/packun_skinshadow_1.mat using Guid(261b22795692143f38d1d88e9f878a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4622322e771a1e99e15685bcc951eea5') in 0.003873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/Pipe.mat
+  artifactKey: Guid(a505a97b280b2994d9a77d36fab33c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/Pipe.mat using Guid(a505a97b280b2994d9a77d36fab33c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2faee479cd886a9545be7755e11ec223') in 0.032283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Eastereggs/Partie 1/Brawl - Piranha Plant Trophy/Materials/packun_skin_1.mat
+  artifactKey: Guid(98e62a77e70dc433eaed7dabc5817ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 1/Brawl - Piranha Plant Trophy/Materials/packun_skin_1.mat using Guid(98e62a77e70dc433eaed7dabc5817ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3a393d697c742acc543f5786b31d08af') in 0.004133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Trucs imports/Creation_Forge Projects/Old Furniture/Old Seat/materials/Seat.mat
+  artifactKey: Guid(3e36251d3e2b27d45949c38959003a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Creation_Forge Projects/Old Furniture/Old Seat/materials/Seat.mat using Guid(3e36251d3e2b27d45949c38959003a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e9d91507c7ef595ca1cb2715f803de0b') in 0.006239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Eastereggs/Partie 3/Waddlewing/Waddlewing/Materials/npc065_eyelid copy.mat
+  artifactKey: Guid(c9b94f3fd85e9465b85e52dbcd04487d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Waddlewing/Waddlewing/Materials/npc065_eyelid copy.mat using Guid(c9b94f3fd85e9465b85e52dbcd04487d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b7547fda1a86b611e58f9a72601333e2') in 0.004668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/PosterHuman.mat
+  artifactKey: Guid(0fa283d3600da034080183973be91b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/PosterHuman.mat using Guid(0fa283d3600da034080183973be91b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '145a2d07860d8376931855cfb708b18c') in 0.029460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Eastereggs/Partie 1/Brawl - Piranha Plant Trophy/Materials/packun_stemshadow_1.mat
+  artifactKey: Guid(55dccd12c03d74f2a9e50e39a2db9291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 1/Brawl - Piranha Plant Trophy/Materials/packun_stemshadow_1.mat using Guid(55dccd12c03d74f2a9e50e39a2db9291) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '26fa7db29eff4c5cd58cc7ead5e54b0e') in 0.004079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/Tiled/Tiles/Tiles_10.mat
+  artifactKey: Guid(c35d9a94d2dc81f498848adc13f8fc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/Tiled/Tiles/Tiles_10.mat using Guid(c35d9a94d2dc81f498848adc13f8fc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a38449ec2a14b95ee659de28e22c71dd') in 0.011272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/Tiled/Tiles/Tiles_12.mat
+  artifactKey: Guid(61b69a7143f7bd446a763f264ae8ead6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/Tiled/Tiles/Tiles_12.mat using Guid(61b69a7143f7bd446a763f264ae8ead6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '817a0f5ecdb70a3220874ce2c0c5d279') in 0.011639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Eastereggs/Partie 1/Brawl - Piranha Plant Trophy/Materials/packun_pipe_1.mat
+  artifactKey: Guid(87d7ab41550134c139c90b6b41a03103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 1/Brawl - Piranha Plant Trophy/Materials/packun_pipe_1.mat using Guid(87d7ab41550134c139c90b6b41a03103) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '690afd7a4e91c60b0e0dc83640d7ceca') in 0.004748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/Tank_V2.mat
+  artifactKey: Guid(23d1d7442bb225b41855d7c363e6cada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/Tank_V2.mat using Guid(23d1d7442bb225b41855d7c363e6cada) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7c5a060d5b7c46ab3424d7858b9360a4') in 0.036650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Trucs imports/Decorative plants/Materials/Pine Mat.mat
+  artifactKey: Guid(dd7c99cf7d10f7b4da3b43e49bb683bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Decorative plants/Materials/Pine Mat.mat using Guid(dd7c99cf7d10f7b4da3b43e49bb683bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '83b30b09ca17ab37c103130f53804ae3') in 0.046287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/Plate_Broken.mat
+  artifactKey: Guid(17b13e4e5562cb54c8b4ad4d729e0d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/Plate_Broken.mat using Guid(17b13e4e5562cb54c8b4ad4d729e0d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ecb3c5b330ba16e676ffaebb4a715ee1') in 0.011834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/Paper.mat
+  artifactKey: Guid(bbd94da9b861c894098c02f902fb4c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/Paper.mat using Guid(bbd94da9b861c894098c02f902fb4c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0538441917af83f5ad81e563c0fc1a74') in 0.007602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/TV_Retro.mat
+  artifactKey: Guid(860bef16e23df224f8636556c8ac7fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/TV_Retro.mat using Guid(860bef16e23df224f8636556c8ac7fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8859e382a9c09fe2c495f12054e1d880') in 0.024301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/Tiled/Tiles/Tiles_8.mat
+  artifactKey: Guid(0e742ad8d803c3b43ba6635f4b381d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/Tiled/Tiles/Tiles_8.mat using Guid(0e742ad8d803c3b43ba6635f4b381d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '033655b2416d46f9216114c8ccdf718a') in 0.011489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Materials/Pillar.mat
+  artifactKey: Guid(29e8dab0d72cee54c91e00509c872543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Materials/Pillar.mat using Guid(29e8dab0d72cee54c91e00509c872543) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dff67303eff0f3b89bf8fc634a4b6494') in 0.011245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting

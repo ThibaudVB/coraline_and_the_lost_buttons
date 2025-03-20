@@ -232,3 +232,243 @@ Start importing Assets/Yeux 3D Bouton Brille/Pixar_Ball.png using Guid(9ae8c8d42
  -> (artifact id: '711d1b5ddcb3da025605fc27e658b9f5') in 0.007081 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 429.021173 seconds.
+  path: Assets/Trucs imports
+  artifactKey: Guid(c0ce0333f7e8b4973afd452c807ca089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports using Guid(c0ce0333f7e8b4973afd452c807ca089) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4877180e1a4a1a002714f7667165cd5a') in 0.000478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.107867 seconds.
+  path: Assets/Eastereggs
+  artifactKey: Guid(8d36711d58da04349948857e00d5c283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs using Guid(8d36711d58da04349948857e00d5c283) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '03ddafb78e6f581f5646cdf936dc29db') in 0.000333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.399886 seconds.
+  path: Assets/Eastereggs/Jordan - Snorlax SSBB
+  artifactKey: Guid(871b042c85c570d4581e305b4fda4009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Jordan - Snorlax SSBB using Guid(871b042c85c570d4581e305b4fda4009) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ad34fe8734ad3cc44a87a31c18e1b22b') in 0.000382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.044069 seconds.
+  path: Assets/Eastereggs/Jordan - Snorlax SSBB/DolKabigon.png
+  artifactKey: Guid(94c64fc95956b7e4a83206261c636be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Jordan - Snorlax SSBB/DolKabigon.png using Guid(94c64fc95956b7e4a83206261c636be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aba2287b32f07326825e13de77ca677d') in 0.010309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Eastereggs/Jordan - Snorlax SSBB/Snorlax.obj
+  artifactKey: Guid(245a3a3bd70ec5c48b2ed0e8b6483d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Jordan - Snorlax SSBB/Snorlax.obj using Guid(245a3a3bd70ec5c48b2ed0e8b6483d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b174db25a4335ab3a5d72587606a1460') in 0.020811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 35.781151 seconds.
+  path: Assets/Eastereggs/Jordan - Snorlax SSBB/Materials
+  artifactKey: Guid(2537d7c67671a473482edc244fe47082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Jordan - Snorlax SSBB/Materials using Guid(2537d7c67671a473482edc244fe47082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4ecaf25caaa42f85a828182b7f16ce97') in 0.000544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.055890 seconds.
+  path: Assets/Eastereggs/Jordan - Snorlax SSBB/Materials/DolKabigon.mat
+  artifactKey: Guid(4811ad9b697344df7a4ca7555938c18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Jordan - Snorlax SSBB/Materials/DolKabigon.mat using Guid(4811ad9b697344df7a4ca7555938c18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2e1bff39e0c6ecb188a6150cca4e4266') in 0.011527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.955968 seconds.
+  path: Assets/Eastereggs/Jordan - Snorlax SSBB/Credit.txt
+  artifactKey: Guid(e17672a3a41ba724980ad52d3d8c3515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Jordan - Snorlax SSBB/Credit.txt using Guid(e17672a3a41ba724980ad52d3d8c3515) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0c155139964fc07c8dc1ff95e4f2cacc') in 0.000671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.638794 seconds.
+  path: Assets/Eastereggs/Jordan - Snorlax SSBB/Snorlax.mtl
+  artifactKey: Guid(b352d42390549734e87a699cc3d24341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Jordan - Snorlax SSBB/Snorlax.mtl using Guid(b352d42390549734e87a699cc3d24341) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f7c81c036dfd30a21004cbe4e1ce6287') in 0.001054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 48.048026 seconds.
+  path: Assets/Eastereggs/P4
+  artifactKey: Guid(e249a448b0a0b42479c716e93ca110ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/P4 using Guid(e249a448b0a0b42479c716e93ca110ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7604999eee9977dd6fde7f87fbf07966') in 0.000328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.977680 seconds.
+  path: Assets/Eastereggs/P4/mario
+  artifactKey: Guid(e42f0189ce7f142eeb0539cd30939e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/P4/mario using Guid(e42f0189ce7f142eeb0539cd30939e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2f2b3eaab0e0d1182f9e754995a99dd1') in 0.000318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.189645 seconds.
+  path: Assets/Eastereggs/P4/mario/Merio.blend
+  artifactKey: Guid(417c04f4d987b4e2d8714f3b74521691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/P4/mario/Merio.blend using Guid(417c04f4d987b4e2d8714f3b74521691) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5c02f3dbc0d00dcbdd77d8ae01c4540f') in 0.071948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 95.926977 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChMD_001_mario_01.obj
+  artifactKey: Guid(9bef56c6ef721432f8346637fec0d741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChMD_001_mario_01.obj using Guid(9bef56c6ef721432f8346637fec0d741) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd277df051e52a6650f01187e9820d61a') in 0.031053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_01_sh.png
+  artifactKey: Guid(c6e29e9e2eea346b89d5740c0ae72b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_01_sh.png using Guid(c6e29e9e2eea346b89d5740c0ae72b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fea753786925ae5811c58e0102d771b2') in 0.005452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_02_sh.png
+  artifactKey: Guid(031f59a4f72ee425b85d41a64dda21a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_02_sh.png using Guid(031f59a4f72ee425b85d41a64dda21a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '17176c6161583ed67a673d797ade7a65') in 0.003672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_marioZ_eye_01_cl.png
+  artifactKey: Guid(9287483047f0e4890b850dc881aff8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_marioZ_eye_01_cl.png using Guid(9287483047f0e4890b850dc881aff8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b49f22b861e42c57a78c0d1138bf0bf3') in 0.003542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_eye_01_op.png
+  artifactKey: Guid(b8a7944760fd34b68bb6d08aa6d6f550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_eye_01_op.png using Guid(b8a7944760fd34b68bb6d08aa6d6f550) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3ae5f10a49dd7a11f9d3ab17d3ee03c9') in 0.003536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_eye_04_cl.png
+  artifactKey: Guid(41a632ffebda34a95961a1d26d986c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_eye_04_cl.png using Guid(41a632ffebda34a95961a1d26d986c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '068a7af72ab277d9cff28edb799ad119') in 0.003226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_04_rg.png
+  artifactKey: Guid(999cf4f093c8e4e1393c76fda37c4830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_04_rg.png using Guid(999cf4f093c8e4e1393c76fda37c4830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'be93e8938e43ec2558af7e149d0a8bfc') in 0.003514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_eye_04_sh.png
+  artifactKey: Guid(58295959b6e164abcad5fd91e067cbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_eye_04_sh.png using Guid(58295959b6e164abcad5fd91e067cbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ac3d8d3fd4ee97dc8fb220e613bdc60c') in 0.003567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_marioZ_eye_01_sh.png
+  artifactKey: Guid(6a85a5e1bc43f4d92bb8abe285788076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_marioZ_eye_01_sh.png using Guid(6a85a5e1bc43f4d92bb8abe285788076) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7b87f0fcdb718594ad20df565ee8028f') in 0.003361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting

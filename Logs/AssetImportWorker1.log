@@ -191,3 +191,157 @@ Start importing Assets/Yeux 3D Bouton Brille/New Material.mat using Guid(b3fcef8
  -> (artifact id: 'c896c922b5afb9a1b3888a5f8d6325f5') in 0.121715 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 434.549982 seconds.
+  path: Assets/Eastereggs/Jordan - Snorlax SSBB/Kabigon_env.png
+  artifactKey: Guid(261b33528360a1f4fac30a0b30fbdfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Jordan - Snorlax SSBB/Kabigon_env.png using Guid(261b33528360a1f4fac30a0b30fbdfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1f8dfa6526442bf724f767aa4ec347b2') in 0.016426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 200.680975 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_01_cl.png
+  artifactKey: Guid(1a6632f7867374912862af3ab0909fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_01_cl.png using Guid(1a6632f7867374912862af3ab0909fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '302e74d48b9a828dcbd25f47e88601ee') in 0.011001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_04_sp.png
+  artifactKey: Guid(a9b65b9dd0a1d4d4496e200ceafda100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_04_sp.png using Guid(a9b65b9dd0a1d4d4496e200ceafda100) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd8ac523647f4850dd4e016fba3ff6686') in 0.004493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_04_cl.png
+  artifactKey: Guid(1209651a650034c95866f1e198b9c9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_04_cl.png using Guid(1209651a650034c95866f1e198b9c9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '28bc8461c77a251f4a6cc0bcf797805c') in 0.003796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_03_cl.png
+  artifactKey: Guid(60cfa53419181487f837da4db9d025d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_03_cl.png using Guid(60cfa53419181487f837da4db9d025d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8a8cfb2062532ce59b65b6ed1015e072') in 0.005411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_04_ao.png
+  artifactKey: Guid(c3b0d8fa7713b4eb1b61ac164deb53e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_04_ao.png using Guid(c3b0d8fa7713b4eb1b61ac164deb53e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8f0a65eb3d74eb82a2f67ab9b2bc383b') in 0.004678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_03_sh.png
+  artifactKey: Guid(1a0d57c18008a41aba3695cf4ea74ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_03_sh.png using Guid(1a0d57c18008a41aba3695cf4ea74ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4a9865ba5aaf0306f47d15827433dd91') in 0.004811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_eye_01_rg.png
+  artifactKey: Guid(601e900b644ce46a69f86523d03d6eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_eye_01_rg.png using Guid(601e900b644ce46a69f86523d03d6eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd6e72203ced0cb0ffdb25b8f93eeb8c4') in 0.003526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_02_cl.png
+  artifactKey: Guid(0d8f620e607014263b84089704fde37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_02_cl.png using Guid(0d8f620e607014263b84089704fde37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f52e60eca79674cf37c6469123295971') in 0.003714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_eye_01_cl.png
+  artifactKey: Guid(ff3e5a2bd67d64729914fce0737b5c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_eye_01_cl.png using Guid(ff3e5a2bd67d64729914fce0737b5c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '38e1dff415a71ccc67a99a78a0895d6a') in 0.003494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_eye_01_sp.png
+  artifactKey: Guid(25da608d85bdb4185a25a3240dd4b17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_eye_01_sp.png using Guid(25da608d85bdb4185a25a3240dd4b17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a67e66deaa7782e3d80c7ee5b6bf3dd2') in 0.002848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_01_sp.png
+  artifactKey: Guid(49b7f34a60b0f4b389e332a958046a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_01_sp.png using Guid(49b7f34a60b0f4b389e332a958046a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c339e0f19518b58b28ec7f248ef1fb39') in 0.003678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_01_rg.png
+  artifactKey: Guid(8f0c1eb4847be4b6197108dc15287bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_01_rg.png using Guid(8f0c1eb4847be4b6197108dc15287bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2afac3c883000e40b96ee0d797eeba43') in 0.003579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_eye_01_sh.png
+  artifactKey: Guid(3c8a30baa02764d7e8f09313fd6be125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_eye_01_sh.png using Guid(3c8a30baa02764d7e8f09313fd6be125) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd501248ea5e39db9d0ec54153016eeac') in 0.003370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_04_sh.png
+  artifactKey: Guid(44eaa5b2d647f4b8d9514c80dfcec41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eastereggs/Partie 3/Mario & Luigi/001_mario/ChTX_001_mario_04_sh.png using Guid(44eaa5b2d647f4b8d9514c80dfcec41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1a00bc6e52a025412af26d982ebadd0c') in 0.003794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
