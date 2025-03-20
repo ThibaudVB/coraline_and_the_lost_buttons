@@ -1,0 +1,72 @@
+{
+  "Textures": {
+    "MainTex": "/Game/Resources/Character/001_mario/Textures/ChTX_001_mario_03_cl.ChTX_001_mario_03_cl",
+    "ChTX_001_mario_03_cl": "/Game/Resources/Character/001_mario/Textures/ChTX_001_mario_03_cl.ChTX_001_mario_03_cl",
+    "ShadowTex": "/Game/Resources/Character/001_mario/Textures/ChTX_001_mario_03_sh.ChTX_001_mario_03_sh",
+    "ChTX_001_mario_03_sh": "/Game/Resources/Character/001_mario/Textures/ChTX_001_mario_03_sh.ChTX_001_mario_03_sh",
+    "ShadowControlTex": "/Game/Resources/Character/001_mario/Textures/ChTX_001_mario_01_sc.ChTX_001_mario_01_sc",
+    "ChTX_001_mario_01_sc": "/Game/Resources/Character/001_mario/Textures/ChTX_001_mario_01_sc.ChTX_001_mario_01_sc",
+    "EyeTex": "/Game/Resources/Character/001_mario/Textures/ChTX_001_mario_eye_01_cl.ChTX_001_mario_eye_01_cl",
+    "ChTX_001_mario_eye_01_cl": "/Game/Resources/Character/001_mario/Textures/ChTX_001_mario_eye_01_cl.ChTX_001_mario_eye_01_cl",
+    "EyeShadowTex": "/Game/Resources/Character/001_mario/Textures/ChTX_001_mario_eye_01_sh.ChTX_001_mario_eye_01_sh",
+    "ChTX_001_mario_eye_01_sh": "/Game/Resources/Character/001_mario/Textures/ChTX_001_mario_eye_01_sh.ChTX_001_mario_eye_01_sh",
+    "EyeShadowControlTex": "/Game/Resources/Character/001_mario/Textures/ChTX_001_mario_eye_01_sc.ChTX_001_mario_eye_01_sc",
+    "ChTX_001_mario_eye_01_sc": "/Game/Resources/Character/001_mario/Textures/ChTX_001_mario_eye_01_sc.ChTX_001_mario_eye_01_sc"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "ForceColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF0000"
+      },
+      "GlossColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "shadowVector": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "000000"
+      }
+    },
+    "Scalars": {
+      "ForceColorAmount": 0.0,
+      "EmissiveBoost": 4.0,
+      "Gloss_Boost": 10.0,
+      "Gloss_Falloff_in": 0.9,
+      "Gloss_Falloff_out": 1.0,
+      "outlineColorBrend": 0.7,
+      "RimL_OutlineJitter": 0.1,
+      "RL_BlurRange": 0.1,
+      "RL_Threshold": 0.4,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "useFrontRender": true,
+      "useGloss": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "OpacityMaskClipValue": 0.3333
+      }
+    },
+    "HasTopDiffuse": false,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}
