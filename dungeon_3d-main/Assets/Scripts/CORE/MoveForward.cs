@@ -11,22 +11,26 @@ public class MoveForward : MonoBehaviour
     public float screamerTime = 1.5f;
     public float distanceFactor = 0.5f;
 
-  private Collider Mcollider;
-  public Vector3 offset;
+    public GameObject screamerObject;
 
-  public float scareDistance = 1.5f;
-  public Transform jumpscarePosition;
+  //private Collider Mcollider;
+  //public Vector3 offset;
+
+  public float scareDistance = 0.01f;
+  //public Transform jumpscarePosition;
   private bool isScaring = false;
 
     
-    private float stop_distance = 3f;
+    private float stop_distance = 30f;
     
     // Start is called before the first frame update
     void Start()
     {
       player = GameObject.FindWithTag("Player").transform;
       //recupère component collider
-      Mcollider = GetComponent<Collider>();
+      //Mcollider = GetComponent<Collider>();
+
+      screamerObject?.SetActive(false);
     }
 
     // Update is called once per frame
@@ -44,15 +48,11 @@ public class MoveForward : MonoBehaviour
 
         //Calculer la distance entre le monstre et le joueur pour lancer le jumpscare
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
+        Debug.Log(distanceToPlayer);
         if (distanceToPlayer <= scareDistance)
         {
             TriggerJumpscare();
         }
-      }
-      else{
-        
-        transform.LookAt(jumpscarePosition);
-
       }
 
     }
@@ -60,16 +60,22 @@ public class MoveForward : MonoBehaviour
     void TriggerJumpscare()
     {
         isScaring = true;
-        Mcollider.enabled = false;
+        GameObject.FindWithTag("MainCamera").GetComponent<CameraShaker>().ShakeCamera(5f);
+        //Mcollider.enabled = false;
         //Pour arrêter les mouvements du joueur
+
         player.GetComponent<PlayerController>().StopMoving(true);
-        Destroy(GetComponent<Rigidbody>());
-                //Pour déplacer le monstre devant le joueur
-        Vector3 newPosition = Camera.main.transform.position + (Camera.main.transform.forward * distanceFactor + offset);
-        transform.position = newPosition;
-        //Pour faire regarder le monstre vers le joueur
-      //Pour attendre avant d'envoyer le joueur à l'écran de game over
+        screamerObject?.SetActive(true);
         StartCoroutine(Wait(screamerTime));
+        transform.GetChild(0).gameObject.SetActive(false);
+        transform.GetChild(1).gameObject.SetActive(false);
+
+        //Destroy(GetComponent<Rigidbody>());
+        //Pour faire regarder le monstre  le joueur
+        //Pour déplacer le monstre devant le joueur
+        //Vector3 newPosition = Camera.main.transform.position + (Camera.main.transform.forward * distanceFactor + offset);
+        //transform.position = newPosition;
+      //Pour attendre avant d'envoyer le joueur à l'écran de game over
     }
 
   //Pour finir la partie avec l'écran de game over
