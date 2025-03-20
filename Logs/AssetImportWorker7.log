@@ -243,3 +243,13 @@ Start importing Assets/Trucs imports/old Kitchen/Floor/Wall 1.obj using Guid(cb5
  -> (artifact id: 'd1876023c9343b369944d3f0cb894e84') in 0.037887 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 717.808159 seconds.
+  path: Assets/Materials/Surfaces/Wall.mat
+  artifactKey: Guid(f575ce9a3f6946b4fb2b89246e87b18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Surfaces/Wall.mat using Guid(f575ce9a3f6946b4fb2b89246e87b18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'df67db1a851254eb87264eb3c6c46d37') in 0.039923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4

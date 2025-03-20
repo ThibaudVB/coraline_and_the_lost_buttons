@@ -2227,3 +2227,40 @@ Start importing Assets/Materials/Sprites/Surfaces/Ground.jpg using Guid(d470a25e
  -> (artifact id: '6ab6d860cc1adb14ac856988d5f6f229') in 0.017268 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 547.132007 seconds.
+  path: Assets/Materials/Sprites/Items
+  artifactKey: Guid(92c86fed65526a14bb6f304bd895729c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites/Items using Guid(92c86fed65526a14bb6f304bd895729c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3a9b7eda5eccdc77d54ccd7dd8e9d96c') in 0.000337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.077152 seconds.
+  path: Assets/Materials/Sprites/Enemies
+  artifactKey: Guid(95bc971ac906f6f4b98caccbb667e9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites/Enemies using Guid(95bc971ac906f6f4b98caccbb667e9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f7127933b91408494781fb60c386f99') in 0.000329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.332174 seconds.
+  path: Assets/Materials/Sprites/Effects
+  artifactKey: Guid(5bc5873ec5b642149b08a15eed7d5308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites/Effects using Guid(5bc5873ec5b642149b08a15eed7d5308) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '68bc251e00d45738449e4a60b230c1c5') in 0.000345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.781973 seconds.
+  path: Assets/Materials/Surfaces/Ground.mat
+  artifactKey: Guid(f1bc55fa0e0f4c44d9035e9d44bae87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Surfaces/Ground.mat using Guid(f1bc55fa0e0f4c44d9035e9d44bae87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f4a3d4c595e29d7bcf5c24d424549831') in 0.017018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
