@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CORE\MoveForward.cs" />
+    <Compile Include="Assets\Scripts\Menus\QuitToMenu.cs" />
     <Compile Include="Assets\Scripts\PauseManager.cs" />
     <Compile Include="Assets\Character\Fausse Mère\Maximo\MobDeplacement.cs" />
     <Compile Include="Assets\Scripts\Yeux\Artefact.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="Assets\Scripts\Menus\AudioOption.cs" />
     <Compile Include="Assets\Scripts\LevelElements\ToxicFog.cs" />
     <Compile Include="Assets\Scripts\Menus\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Menus\CursorManager.cs" />
     <Compile Include="Assets\Scripts\CORE\AudioManager.cs" />
     <Compile Include="Assets\Scripts\test.cs" />
     <Compile Include="Assets\Scripts\LevelElements\Exit.cs" />
