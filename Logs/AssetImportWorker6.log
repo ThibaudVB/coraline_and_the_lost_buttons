@@ -839,3 +839,37 @@ Start importing Assets/Dinner table/Materials/Plate.mat using Guid(afd81ac022ad2
  -> (artifact id: '02d9b4883520eba0c0bc64334dedc22a') in 0.232188 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 210.782688 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Prefabs/Map1stFloor.prefab
+  artifactKey: Guid(61fe87365490bd244af63822b53aabb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Prefabs/Map1stFloor.prefab using Guid(61fe87365490bd244af63822b53aabb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '60c1231f1a569ebfb95b3e89961f067c') in 0.332771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 2.008566 seconds.
+  path: Assets/Trucs imports/Abandoned_Asylum/Textures/FloorWood_normal.png
+  artifactKey: Guid(28bb3bee77a527444880d042d54f4260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/Abandoned_Asylum/Textures/FloorWood_normal.png using Guid(28bb3bee77a527444880d042d54f4260) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '38603c34b33d3dfc2fb12504c9f2b941') in 0.057529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 25.817480 seconds.
+  path: Assets/Trucs imports/old Kitchen/Floor/Default_Base_Color 1.png
+  artifactKey: Guid(1df8774503be9744390b2a313e651ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trucs imports/old Kitchen/Floor/Default_Base_Color 1.png using Guid(1df8774503be9744390b2a313e651ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a488dea0b56e994fd176b7ec43bc90a3') in 0.034737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
