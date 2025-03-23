@@ -9,6 +9,7 @@ public class DoorInteraction : MonoBehaviour
 
     public AudioClip openDoorSound;  // Référence au son à jouer lors de l'ouverture de la porte
     private AudioSource audioSource; // Référence à l'AudioSource attachée à la porte
+    private bool isSoundPlaying = false; // Booléen pour vérifier si le son est en cours de lecture
 
     private void Start()
     {
@@ -30,7 +31,7 @@ public class DoorInteraction : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && !isSoundPlaying) // Vérifie si le son n'est pas déjà en cours
         {
             Debug.Log("Open");
             isOpen = true;  
@@ -40,6 +41,7 @@ public class DoorInteraction : MonoBehaviour
             if (openDoorSound != null)
             {
                 audioSource.PlayOneShot(openDoorSound);  // Joue le son d'ouverture de porte
+                isSoundPlaying = true; // Marque que le son est en cours de lecture
             }
 
             if (!isClosed)
@@ -52,10 +54,14 @@ public class DoorInteraction : MonoBehaviour
 
     private IEnumerator ResetDoorState()
     {
-        // Attends la fin de l'animation Door_Closed avant de réinitialiser le booléen
-        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+        // Attends que le son soit fini
+        yield return new WaitForSeconds(openDoorSound.length); // Attends la durée du son
+
+        // Réinitialiser l'animation après le délai
         animator.SetBool("Open", false); // Réinitialise le booléen après la fin de l'animation
         isOpen = false;
         isClosed = false; // Remet l'état fermé à false pour éviter qu'il ne soit réinitialisé de nouveau
+
+        isSoundPlaying = false; // Permet de rejouer le son lorsque l'on entre dans le trigger à nouveau
     }
 }
